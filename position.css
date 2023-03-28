@@ -1,0 +1,23 @@
+/* 부모요소 position: relative
+자식요소 position: absolute */
+
+.parent{
+    border: 2px solid blanchedalmond;
+    background-color: aqua;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+.child{
+    background-color: burlywood;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+
+}

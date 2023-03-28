@@ -1,0 +1,23 @@
+.box{
+    border: 3px solid skyblue;
+    text-align: center;
+}
+.box div{
+    border: 3px solid greenyellow;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+}
+.box div:nth-child(odd){
+    background-color: blueviolet;
+}
+.box div:nth-child(even){
+    background-color: red;
+}
+/* .box div:nth-of-type(3){
+    background-color: #fff;
+}
+.box div:nth-of-type(4){
+    background-color: blue;
+} */

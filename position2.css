@@ -1,0 +1,40 @@
+/* 부모요소 position: relative
+자식요소 position: absolute */
+
+.parent{
+    border: 2px solid blanchedalmond;
+    background-color: aqua;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+.child{
+    background-color: burlywood;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+   }
+.childz{
+    background-color: black;
+    width: 200px;
+    height: 100px;
+    transform: translate(0, -50%);
+    right: 100%;
+    top: 0%;
+
+   }
+.child1{
+    transform: translate(0, -50%);
+    left: 100;
+    top: 0%;
+}
+.child2{
+    transform: translate(50, 0%);
+    left: 100%;
+    top: 0%;
+}
+.child3{
+    left: 100%;
+    top: 0%;
+}

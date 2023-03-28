@@ -1,0 +1,38 @@
+.container{
+    width: 400px;
+}
+.btn{
+
+}
+.btn span{
+    background-color: #ddd;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #000;
+    margin-right: -7px;
+    cursor: pointer;
+}
+.btn span:first-child{
+    background-color: #fff;
+}
+.btn span:last-child{
+    color: red;
+}
+
+.tab{
+    border: 1px solid #000;
+    width: 20%;
+}
+.tab a{
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin: 5px;
+    border-bottom: 1px solid #000;
+}
+.tab a:last-child{
+    border-bottom: none;
+}

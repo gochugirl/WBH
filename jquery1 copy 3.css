@@ -1,0 +1,26 @@
+.container{
+   width: 400px;
+}
+a{
+   /* border: 1px solid #ccc; */
+   background-color: #ccc;
+   display: inline-block;
+   width: 100px;
+   color: #000;
+   text-decoration: none;
+   text-align: center;
+   padding: 5px;
+}
+.container div{
+   background-color: blue;
+   width: 340px;
+   height: 200px;
+   margin-top: 10px;
+   color: #fff;
+   text-align: center;
+   line-height: 200px;
+   /* display: none; */
+}
+.container div.active{
+   background-color: red;
+}
